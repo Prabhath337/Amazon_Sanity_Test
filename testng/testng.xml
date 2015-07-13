@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amazon India">
+<test name="Amazon_Sanity_test">
+<classes>
+<class name="TestNG.test_amazon">
+<methods>
+<include name="beforeMethod"></include>
+<include name="navigate"></include>
+<include name="loggingin"></include>
+<include name="verify_title"></include>
+<include name="verify_emailid"></include>
+<include name="verify_password"></include>
+<include name="verify_login"></include>
+<include name="verify_product"></include>
+<include name="verify_text_before_after"></include>
+<include name="delete_items"></include>
+<include name="signout"></include>
+<include name="afterMethod"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
